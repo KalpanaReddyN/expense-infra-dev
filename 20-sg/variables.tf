@@ -44,8 +44,14 @@ variable "ansible_sg_tags" {
     }
 }
 
-variable "app_alb_sg" {
-    default = {
-        component = "app_alb"
-    }
-}
+# variable "app_alb_sg_tags" {
+#     default = {
+#         component = "app_alb"
+#     }
+# }
+
+# variable "vpn_sg_tags" {
+#     default = {
+#         component = "vpn"
+#     }
+# }
