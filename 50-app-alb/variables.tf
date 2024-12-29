@@ -18,3 +18,9 @@ variable "common_tags" {
 variable "zone_name" {
     default = "kalpanadevops.online"
 }
+
+variable "app_alb_tags" {
+    default = {
+        Component = "app-alb"
+    }
+}
